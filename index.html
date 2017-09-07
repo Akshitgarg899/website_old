@@ -13,6 +13,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Orbitron|Source+Code+Pro:300,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="animate.css">
 	<style>
 		body {
 			position: relative; 
@@ -55,7 +56,7 @@
 					<td style="width: 33%;"><img src="ml.png" width="150px" style="box-shadow: 0px 1px 0px #9A9A9A;"></td>
 					<td style="width: 33%;"><img src="cns.png" width="150px" style="box-shadow: 0px 1px 0px #9A9A9A;"></td>
 				</tr>
-				<tr style="text-align: center; font-family: 'Orbitron', sans-serif;">
+				<tr style="text-align: center; font-family: 'Orbitron', sans-serif;" class="wow pulse">
 					<td style="width: 33%;">Python</td>
 					<td style="width: 33%;">Machine Learning</td>
 					<td style="width: 33%;">Neurobiology</td>
@@ -158,6 +159,9 @@
 			</div>
 		</div>
 	</div>
-
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
