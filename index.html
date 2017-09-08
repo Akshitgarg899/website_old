@@ -18,38 +18,47 @@
 		body {
 			position: relative; 
 		}
+		h1{
+			color: #B3001B;
+		}
+		h4{
+			color: #E28413;
+		}
+		#norm{
+			color: #E4572E;
+		}
 	</style>
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50" style="font-family: 'Source Code Pro', monospace;" data-0="background-color:#FFFFFF;" data-1000="background-color:#000000;">
+<body data-offset="50" style="font-family: 'Source Code Pro', monospace; background-color: rgb(0, 0, 0);">
 
-	<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #3454D1; box-shadow: 0px 1px 0px #EEF1F3;">
+	<nav class="navbar navbar-default navbar-fixed-top" style="background-color: rgb(0, 0, 0);">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#" ><b>VIDUR SATIJA</b></a>
+				<a class="navbar-brand" href="#" style="color: #FABC3C;"><b>VIDUR SATIJA</b></a>
 			</div>
 			<div>
-				<div class="collapse navbar-collapse" id="myNavbar">
+				<!--<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right" style="font-size: 12px;">
 						<li><a href="#aboutme">ABOUT</a></li>
 						<li><a href="#projects">PROJECTS</a></li>
 						<li><a href="#interests">INTERESTS</a></li>
-						<!--<li><a href="#milestones">MILESTONES</a></li>-->
+						<!--<li><a href="#milestones">MILESTONES</a></li>
 						<li><a href="#reachme">REACH ME</a></li>
 					</ul>
-				</div>
+				</div>-->
 			</div>
 		</div>
-	</nav>    
+	</nav> 
 
-	<div id="aboutme" style="height: 100vh; width: 100%;">
+	<div id="aboutme" style="height: 768px; width: 100%; position: fixed;" data-0="opacity:1.0" data-576="opacity:1.0" data-768="opacity:0.0">
 		<div class="container">
-			<h1 align="center" style="position: relative; top: 150px;"><b>WHO AM I?</b></h1>
-			<hr style="width: 16%; position: relative; top: 160px; height: 1px; background-color: #353535;">
-			<h4 align="center" style="position: relative; top: 170px;"><b>Visvesvaraya National Institute of Technology; Class of 2020</b></h4>
-			<h5 align="center" style="position: relative; top: 180px;">Majoring in Computer Science and Engineering (B.Tech)</h5>
-			<h4 align="center" style="position: relative; top: 200px;"><b>My fields of interest are:</b></h4>
+			<h1 align="center" style="position: relative; top: 100px;"><b>WHO AM I?</b></h1>
+			<hr style="width: 16%; position: relative; top: 110px; height: 1px; background-color: #353535;">
+			<h4 align="center" style="position: relative; top: 120px;"><b>Visvesvaraya National Institute of Technology; Class of 2020</b></h4>
+			<h5 align="center" style="position: relative; top: 130px;" id="norm">Majoring in Computer Science and Engineering (B.Tech)</h5>
+			<h4 align="center" style="position: relative; top: 150px;"><b>My fields of interest are:</b></h4>
 			<table align="center" class="wow pulse" border="0px" style="position: relative; top: 220px; border-spacing: 20px; border-collapse: separate;" cellpadding="20">
 				<tr align="center">
 					<td style="width: 33%;"><img src="python.png" width="150px" style="box-shadow: 0px 1px 0px #9A9A9A;"></td>
@@ -57,30 +66,30 @@
 					<td style="width: 33%;"><img src="cns.png" width="150px" style="box-shadow: 0px 1px 0px #9A9A9A;"></td>
 				</tr>
 				<tr style="text-align: center; font-family: 'Orbitron', sans-serif;">
-					<td style="width: 33%;">Python</td>
-					<td style="width: 33%;">Machine Learning</td>
-					<td style="width: 33%;">Neurobiology</td>
+					<td style="width: 33%;" id="norm">Python</td>
+					<td style="width: 33%;" id="norm">Machine Learning</td>
+					<td style="width: 33%;" id="norm">Neurobiology</td>
 				</tr>
 			</table>
 		</div>
 	</div>
 
-	<div id="projects" style="height: 90vh; width: 100%;">
+	<div id="projects" style="height: 768px; width: 100%; position: fixed;" data-0="opacity:0.0;" data-768="opacity:0.0;" data-960="opacity:1.0;" data-1344="opacity:1.0;" data-1536="opacity:0.0;">
 		<div class="container">
 			<h1 align="center" style="position: relative; top: 100px;"><b>PROJECTS</b></h1>
 			<hr style="width: 16%; position: relative; top: 110px; height: 1px; background-color: #353535;">
 			<table align="center" border="0px" style="position: relative; top: 120px; border-spacing: 20px; border-collapse: separate;">
 				<tr align="center" class="wow slideInLeft">
-					<td style="width: 50%"><a href="https://github.com/vidursatija/voiceai/" style="font-size: 20px;"><b>Voice AI</b></a><br>A simple AI like Siri using Stanford-NLP</td>
-					<td style="width: 50%"><a href="https://github.com/vidursatija/PSMove-Disco/" style="font-size: 20px;"><b>PSMove-Disco</b></a><br>Use PSMove controller as a disco ball</td>
+					<td style="width: 50%"><a href="https://github.com/vidursatija/voiceai/" style="font-size: 20px;"><b>Voice AI</b></a><br><span id="norm">A simple AI like Siri using Stanford-NLP</span></td>
+					<td style="width: 50%"><a href="https://github.com/vidursatija/PSMove-Disco/" style="font-size: 20px;"><b>PSMove-Disco</b></a><br><span id="norm">Use PSMove controller as a disco ball</span></td>
 				</tr>
 				<tr align="center" class="wow slideInRight">
-					<td style="width: 50%"><a href="https://github.com/vidursatija/Klondike-Mac/" style="font-size: 20px;"><b>Klondike</b></a><br>The famous card game for Mac</td>
-					<td style="width: 50%"><a href="https://github.com/vidursatija/CardboardTracker-iOS/" style="font-size: 20px;"><b>Hand Tracker</b></a><br>Controlling mouse using hand(OpenCV)</td>
+					<td style="width: 50%"><a href="https://github.com/vidursatija/Klondike-Mac/" style="font-size: 20px;"><b>Klondike</b></a><br><span id="norm">The famous card game for Mac</span></td>
+					<td style="width: 50%"><a href="https://github.com/vidursatija/CardboardTracker-iOS/" style="font-size: 20px;"><b>Hand Tracker</b></a><br><span id="norm">Controlling mouse using hand(OpenCV)</span></td>
 				</tr>
 				<tr align="center" class="wow slideInLeft">
-					<td style="width: 50%"><a href="https://github.com/vidursatija/MusicNet/" style="font-size: 20px;"><b>ShuffleNet</b></a><br>AI powered music recommendation for iTunes</td>
-					<td style="width: 50%"><a href="https://github.com/vidursatija/RhymeNet/" style="font-size: 20px;"><b>RhymeNet</b></a><br>Generating rhymes using RNNs</td>
+					<td style="width: 50%"><a href="https://github.com/vidursatija/MusicNet/" style="font-size: 20px;"><b>ShuffleNet</b></a><br><span id="norm">AI powered music recommendation for iTunes</span></td>
+					<td style="width: 50%"><a href="https://github.com/vidursatija/RhymeNet/" style="font-size: 20px;"><b>RhymeNet</b></a><br><span id="norm">Generating rhymes using RNNs</span></td>
 				</tr>
 			</table>
 			<br>
@@ -92,7 +101,7 @@
 		</div>
 	</div>
 
-	<div id="interests" style="height: 90vh; width: 100%;">
+	<div id="interests" style="height: 768px; width: 100%; position: fixed;" data-0="opacity:0.0" data-1536="opacity:0.0" data-1728="opacity:1.0" data-2112="opacity:1.0" data-2304="opacity:0.0">
 		<div class="container wow jello">
 			<h1 align="center" style="position: relative; top: 100px;"><b>INTERESTS</b></h1>
 			<hr style="width: 16%; position: relative; top: 110px; height: 1px; background-color: #353535;">
@@ -105,7 +114,7 @@
 		</div>
 	</div>
 
-	<div id="reachme" style="height: 100vh; width: 100%;">
+	<div id="reachme" style="height: 768px; width: 100%; position: fixed;" data-0="opacity:0.0" data-2304="opacity:0.0" data-2496="opacity:1.0">
 		<div class="container">
 			<h1 align="center" style="position: relative; top: 100px;"><b>CONTACT ME</b></h1>
 			<hr style="width: 16%; position: relative; top: 110px; height: 1px; background-color: #353535;">
@@ -122,9 +131,7 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="skrollr.min.js"></script>
-	<script src="wow.js"></script>
 	<script>
-		new WOW().init();
 		skrollr.init();
 	</script>
 </body>
